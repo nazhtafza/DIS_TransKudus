@@ -1,0 +1,110 @@
+body{
+    background-color: #F1F5F7;
+    font-family: 'Poppins', 'Sans-serif';
+}
+nav{
+    font-size: 24px;
+}
+/* body*/
+.header{
+    text-align: center;
+    margin-top: 60px;
+}
+.header h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.header h3 span{
+    color: #0C4171;
+}
+.header p{
+    font-size: 24px;
+    font-weight: 400px;
+    color: #676767;
+}
+/* Informasi Rute */
+.infoRute {
+    display: flex;
+    max-width: 1100px;
+    width: 100%; /* Memungkinkan elemen menggunakan lebar penuh hingga batas maksimal */
+    height: 207px;
+    margin: 0 auto;
+    padding: 20px 36px;
+    background-color: #f8f9fa; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    row-gap: 10px;
+    align-items: center;
+}
+
+.dari, .tujuan, .jadwal {
+    margin-right: 5px;
+    flex: 1; 
+
+}
+.infoRute h5 {
+    font-size: 1.25rem; /* Ukuran font untuk judul */
+    font-weight: 600;
+    color: #0C4171; /* Warna teks judul */
+    margin-bottom: 10px; /* Jarak bawah judul */
+}
+
+.dropdown {
+    position: relative; /* Posisi relatif untuk dropdown */
+}
+.dropdown-toggle{
+    background-color: transparent;
+    color: #000;
+    border-radius: 0px;
+    border:none;
+    border-bottom: 2px solid #0C4171;
+}
+.dropdown-toggle:hover{
+    background-color: #0C4171;
+}
+.dropdown-toggle:focus{
+    background-color: #0C4171;
+}
+
+.infoRute .btn-custom{
+    margin-left: 78px;
+    width: 190px;
+    height: 55px;
+    background-color: #0C4171;
+    color: #ffffff;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    background: linear-gradient(to right, #0C4171, #1264AF); 
+    padding: 20px 64px; 
+    color: white;
+    width: 100%;
+    height: 350px;
+    align-items: flex-start;
+}
+
+.footer .col1 .unduh{
+    margin-top: 111px;
+}
+.footer .col1 .unduh .logo_download{
+    margin-top: 30px;
+}
+
+.footer .col2{
+    margin-left: 135px;
+    max-width: 350px;
+}
+.footer .col2 h3{
+    font-size: 32;
+}
+.footer .col2 p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.footer .col3{
+    margin-left: 135px;
+    max-width: 350px;
+}
