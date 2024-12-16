@@ -44,13 +44,53 @@ nav{
     color:  #1264AF;
     font-weight: 600;
 }
-/* promos */
-.promos{
-    padding: 20px 64px;
+.modal-body{
+    padding: 10px 30px;
 }
-.promos h2{
+.modal-body .head{
+    display: flex;
+    border: 2px solid #000;
+    border-radius: 8px;
+    gap: 25px;
+    align-items: center;
+    padding: 10px;
+}
+.modal-body .head .nama_tiket{
+    align-items: center;
+}
+.modal-body .head .nama_tiket h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.modal-body .head .nama_tiket p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.modal-body ul{
+    padding-top: 10px;
+    font-size: 16px;
+    color: #5D5D5D;
+    text-align: justify;
+}
+/* promos */
+.h2-promo{
+    padding: 20px 64px;
     font-size: 40px;
     font-weight: 600;
+}
+.h2-promo span{
+    color: #0C4171;
+}
+.promos{
+    padding: 20px 64px;
+    background-color: #D3E2EA;
+}
+.promos .daftar_promo{
+    display: flex;
+    gap: 21px;
+}
+.promos .daftar_promo .card{
+    background-color: #Fff;
 }
 /* Footer */
 .footer{

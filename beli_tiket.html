@@ -49,23 +49,104 @@
                 <div class="card-body">
                   <h5 class="card-title">Tiket Umum</h5>
                   <p class="card-text">Rp. 5000/Tiket</p>
-                  <a href="#" class="btn btn-custom">Lihat Detail</a>
+                  <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#detailModal1">Lihat Detail</a>
                 </div>
               </div>
+            <!-- Modal -->
+            <div class="modal fade" id="detailModal1" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="detailModalLabel">Detail Tiket Umum</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="head">
+                            <img src="assets/modal_icon.png" alt="modal icon" width="70px" height="auto">
+                            <div class="nama_tiket">
+                                <h4>Tiket Umum</h4>
+                                <p>Rp. 5000</p>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Tiket Umum digunakan untuk penumpang umum, sedangkan Tiket Pelajar hanya digunakan untuk penumpang pelajar.</li>
+                            <li>Pembelian atau penggunaan Tiket Pelajar harus menunjukan Kartu Tanda Pelajar.</li>
+                            <li>Tiket Non-Promo tidak ada masa berlakunya, sedangkan Tiket Promo ada masa berlakunya.</li>
+                            <li>Tiket promo hanya dapat di beli dan digunakan hanya saat masa promo, jika tiket tidak digunakan setelah masa promo berakhir maka akan hangus.</li>
+                            <li>Tiket yang sudah di beli tidak dapat dikembalikan (non-refundable).</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-primary">Beli Tiket</button>
+                    </div>
+                </div>
+                </div>
+            </div>
             </div>
             <div class="col-sm-4">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Tiket Pelajar dan Mahasiswa</h5>
                   <p class="card-text">Rp. 2500/Tiket</p>
-                  <a href="#" class="btn btn-custom">Lihat Detail</a>
+                  <a href="#" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#detailModal2">Lihat Detail</a>
                 </div>
               </div>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="detailModal2" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="detailModalLabel">Detail Tiket Umum</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="head">
+                            <img src="assets/modal_icon.png" alt="modal icon" width="70px" height="auto">
+                            <div class="nama_tiket">
+                                <h4>Tiket Pelajar dan Mahasiswa</h4>
+                                <p>Rp. 2500</p>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Tiket Umum digunakan untuk penumpang umum, sedangkan Tiket Pelajar hanya digunakan untuk penumpang pelajar.</li>
+                            <li>Pembelian atau penggunaan Tiket Pelajar harus menunjukan Kartu Tanda Pelajar.</li>
+                            <li>Tiket Non-Promo tidak ada masa berlakunya, sedangkan Tiket Promo ada masa berlakunya.</li>
+                            <li>Tiket promo hanya dapat di beli dan digunakan hanya saat masa promo, jika tiket tidak digunakan setelah masa promo berakhir maka akan hangus.</li>
+                            <li>Tiket yang sudah di beli tidak dapat dikembalikan (non-refundable).</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-primary">Beli Tiket</button>
+                    </div>
+                </div>
+                </div>
+            </div>
           </div>
       </div>
+      <!-- Promos -->
+      <h2 class="h2-promo">Pergi Pakai TransKudus, <span>Nikmati Berbagai Promo Ini!</span></h2>
       <div class="promos">
-        <h2>Pergi Pakai TransKudus, <span>Nikmati Berbagai Promo Ini!</span></h2>
+        <div class="daftar_promo">
+            <!-- CFC -->
+            <div class="card mt-4" style="width: 18rem;">
+                <img src="assets/image 12.png" class="card-img-top" alt="promo">
+                <div class="card-body">
+                <h4 style="color: black; font-weight: 700;">CFC</h4>
+                <p class="card-text" style="color: #7b7b7b;">2024-10-18</p>
+                </div>
+            </div>
+            <!-- Jenang -->
+            <div class="card mt-4" style="width: 18rem;">
+                <img src="assets/diskon 1.png" class="card-img-top" alt="promo jenang">
+                <div class="card-body">
+                <h4 style="color: black; font-weight: 700;">Richeese</h4>
+                <p class="card-text" style="color: #7b7b7b;">2024-10-18</p>
+                </div>
+            </div>
+        </div>
       </div>
       <img src="assets/slogan.png" alt="peringatan" class="peringatan img-fluid" style="margin-top: 103px;">
 
