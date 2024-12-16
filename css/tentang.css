@@ -1,0 +1,78 @@
+body{
+    background-color: #F1F5F7;
+    font-family: 'Poppins', 'Sans-serif';
+}
+nav{
+    font-size: 24px;
+}
+/* body*/
+.header{
+    text-align: center;
+    margin-top: 60px;
+}
+.header h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.header h3 span{
+    color: #0C4171;
+}
+.header p{
+    font-size: 24px;
+    font-weight: 400px;
+    color: #676767;
+}
+.deskripsi{
+    padding: 10px 64px;
+    font-family: 'Poppins';
+    text-align: justify;
+}
+.deskripsi p {
+    font-size: 24px;
+    color: #3f3f3f;
+}
+.deskripsi h3{
+    color: #0C4171;
+    font-weight: 700;
+}
+.footer{
+    display: flex;
+    grid-row: 2;
+    background: linear-gradient(to right, #0C4171, #1264AF); 
+    padding: 20px 64px; 
+    color: white;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+}
+.footer .col1 img{
+    max-width: 256px;
+    width: 100%;
+    height: auto;
+}
+.footer .col1 .unduh{
+    margin-top: 111px;
+}
+.footer .col1 .unduh h5{
+    font-size: 24px;
+}
+.footer .col1 .unduh .logo_download{
+    margin-top: 27px;
+}
+
+.footer .col2{
+    margin-left: 135px;
+    max-width: 350px;
+}
+.footer .col2 h3{
+    font-size: 32;
+}
+.footer .col2 p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.footer .col3{
+    margin-left: 135px;
+    max-width: 350px;
+}

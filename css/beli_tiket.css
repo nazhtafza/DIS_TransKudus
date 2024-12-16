@@ -1,0 +1,88 @@
+body{
+    background-color: #F1F5F7;
+    font-family: 'Poppins', 'Sans-serif';
+}
+nav{
+    font-size: 24px;
+}
+/* body*/
+.header{
+    padding-top: 80px;
+    text-align: center;
+    margin-top: 60px;
+}
+.header h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.header h3 span{
+    color: #0C4171;
+}
+.header p{
+    font-size: 24px;
+    font-weight: 400px;
+    color: #676767;
+}
+/* Tiket */
+.container_tickets{
+    padding: 20px 64px;
+}
+.container_tickets h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.container_tickets h2 span{
+    color: #0C4171;
+}
+/* card tiket */
+.card{
+    background-color: #1264AF;
+    color: #Fff;
+}
+.card .btn-custom{
+    background-color: #7CE1FF;
+    color:  #1264AF;
+    font-weight: 600;
+}
+/* promos */
+.promos{
+    padding: 20px 64px;
+}
+.promos h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+/* Footer */
+.footer{
+    display: flex;
+    background: linear-gradient(to right, #0C4171, #1264AF); 
+    padding: 20px 64px; 
+    color: white;
+    width: 100%;
+    height: 350px;
+    align-items: flex-start;
+}
+
+.footer .col1 .unduh{
+    margin-top: 111px;
+}
+.footer .col1 .unduh .logo_download{
+    margin-top: 30px;
+}
+
+.footer .col2{
+    margin-left: 135px;
+    max-width: 350px;
+}
+.footer .col2 h3{
+    font-size: 32;
+}
+.footer .col2 p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.footer .col3{
+    margin-left: 135px;
+    max-width: 350px;
+}
