@@ -149,17 +149,19 @@ nav{
     width: 100%; /* Memungkinkan elemen menggunakan lebar penuh hingga batas maksimal */
     height: auto;
     margin: 0 auto;
-    padding: 10px px;
+    padding: 20px 32px;
     background-color: #f8f9fa; 
     border-radius: 5px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     row-gap: 10px;
     align-items: center;
+    justify-content: center;
 }
 
-.dari, .tujuan, .jadwal {
-    flex: 11; 
-    row-gap: 78px;
+.dari, .tujuan, .jadwal { 
+    row-gap: 70px;
+    justify-content: center;
+    margin-left: 60px;
 
 }
 .infoRute h5 {
@@ -167,6 +169,7 @@ nav{
     font-weight: 600;
     color: #0C4171; /* Warna teks judul */
     margin-bottom: 10px; /* Jarak bawah judul */
+    justify-content: center;
 }
 
 .dropdown {
@@ -187,16 +190,17 @@ nav{
 }
 
 .infoRute .btn-custom{
+    justify-content: center;
     margin-left: 2px;
-    width: 190px;
+    width: 600px;
     height: 55px;
     background-color: #0C4171;
     color: #ffffff;
+    margin-top: 30px;
 }
 .peringatan{
     max-width: 768px;
     width: 100%;
-    height: auto;
 }
 /* Footer */
 .footer{
@@ -209,6 +213,9 @@ nav{
     width: 100%;
     height: auto;
     align-items: flex-start;
+}
+.footer .col1{
+    margin: 0px 32px;
 }
 .footer .col1 img{
     max-width: 256px;
@@ -226,7 +233,7 @@ nav{
 }
 
 .footer .col2{
-    margin-left: 135px;
+    margin: 20px 32px;
     max-width: 350px;
 }
 .footer .col2 h3{
@@ -238,33 +245,32 @@ nav{
 }
 
 .footer .col3{
-    margin-left: 135px;
+    margin: 20px 32px;
     max-width: 350px;
+}
+.footer .col3 img{
+    width: 47px;
+    height: auto;
 }
 }
 /* Membuat mobile responsive */
 @media (min-width: 320px) and (max-width: 428px){
 /* Navigation bar */
 nav{
-    display: flex;
-    height: 59px;
-    flex-direction: row;
-    max-width: 428px;
     width: 100%;
-    font-size: 14 px;
-    padding: 0px 24px;
+    font-size: 14px;
 }
 nav img{
     align-items: start;
     width: 100%;
-    max-width: 230px;
+    max-width: 200px;
     height: auto;
     margin-left: 0px;
 }
 /* jumbotron */
 .jumbotron{
     height: auto;
-    width: 393px;
+    width: max-content;
 }
 /* body*/
 .header{
@@ -286,12 +292,10 @@ nav img{
 /* Informasi Rute */
 .infoRute {
     display: block;
-    
-    max-width: 768px;
+    max-width: 428px;
     width: 100%; /* Memungkinkan elemen menggunakan lebar penuh hingga batas maksimal */
     height: auto;
-    margin: 0 auto;
-    padding: 10px px;
+    padding: 20px;
     background-color: #f8f9fa; 
     border-radius: 5px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
@@ -316,7 +320,9 @@ nav img{
     position: relative; /* Posisi relatif untuk dropdown */
 }
 .dropdown-toggle{
+    text-align: start;
     background-color: transparent;
+    width: 390px;
     color: #000;
     border-radius: 0px;
     border:none;
@@ -332,22 +338,21 @@ nav img{
 .infoRute .btn-custom{
     margin-top: 18px;
     margin-left: 2px;
-    width: 250px;
+    width:390px;
     height: 38px;
     background-color: #0C4171;
     color: #ffffff;
 }
 .peringatan{
-    max-width: 768px;
     width: 100%;
     height: auto;
 }
 /* Footer */
 .footer{
-    display: grid;
+    display: block;
     grid-row: 2;
     background: linear-gradient(to right, #0C4171, #1264AF); 
-    padding: 20px 64px; 
+    padding: 20px 24px; 
     color: white;
     max-width: 768px;
     width: 100%;
@@ -370,7 +375,7 @@ nav img{
 }
 
 .footer .col2{
-    margin-left: 135px;
+    margin: 20px 0px;
     max-width: 350px;
 }
 .footer .col2 h3{
