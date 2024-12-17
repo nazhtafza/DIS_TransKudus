@@ -1,0 +1,410 @@
+body{
+    background-color: #F1F5F7;
+    font-family: 'Poppins', 'Sans-serif';
+}
+nav{
+    font-size: 24px;
+}
+/* body*/
+.header{
+    padding-top: 80px;
+    text-align: center;
+    margin-top: 60px;
+}
+.header h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.header h3 span{
+    color: #0C4171;
+}
+/* Informasi Rute */
+.infoRute {
+    display: flex;
+    max-width: 1100px;
+    width: 100%; /* Memungkinkan elemen menggunakan lebar penuh hingga batas maksimal */
+    height: 207px;
+    margin: 0 auto;
+    padding: 20px 36px;
+    background-color: #f8f9fa; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    row-gap: 10px;
+    align-items: center;
+}
+
+.dari, .tujuan, .jadwal {
+    margin-right: 5px;
+    flex: 1; 
+
+}
+.infoRute h5 {
+    font-size: 1.25rem; /* Ukuran font untuk judul */
+    font-weight: 600;
+    color: #0C4171; /* Warna teks judul */
+    margin-bottom: 10px; /* Jarak bawah judul */
+}
+
+.dropdown {
+    position: relative; /* Posisi relatif untuk dropdown */
+}
+.dropdown-toggle{
+    background-color: transparent;
+    color: #000;
+    border-radius: 0px;
+    border:none;
+    border-bottom: 2px solid #0C4171;
+}
+.dropdown-toggle:hover{
+    background-color: #0C4171;
+}
+.dropdown-toggle:focus{
+    background-color: #0C4171;
+}
+
+.infoRute .btn-custom{
+    margin-left: 78px;
+    width: 190px;
+    height: 55px;
+    background-color: #0C4171;
+    color: #ffffff;
+}
+.hasil{
+    padding: 20px 64px;
+}
+.hasil h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.hasil h3 span{
+    color: #0C4171;
+}
+.hasil .kartu{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-color: #1264AF;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.hasil a{
+    text-decoration: none;
+}
+/* Footer */
+.footer{
+    display: flex;
+    background: linear-gradient(to right, #0C4171, #1264AF); 
+    padding: 20px 64px; 
+    color: white;
+    width: 100%;
+    height: 350px;
+    align-items: flex-start;
+}
+
+.footer .col1 .unduh{
+    margin-top: 111px;
+}
+.footer .col1 .unduh .logo_download{
+    margin-top: 30px;
+}
+
+.footer .col2{
+    margin-left: 135px;
+    max-width: 350px;
+}
+.footer .col2 h3{
+    font-size: 32;
+}
+.footer .col2 p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.footer .col3{
+    margin-left: 135px;
+    max-width: 350px;
+}
+
+/* Responsive tab */
+@media (min-width: 768px) and (max-width: 1024px){
+    nav{
+        width: 100%;
+        font-size: 20px;
+    }
+    /* body*/
+    .header{
+        padding-top: 80px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .header h3{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    /* Informasi Rute */
+    .infoRute {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 768px;
+        width: 100%; /* Memungkinkan elemen menggunakan lebar penuh hingga batas maksimal */
+        height: 207px;
+        background-color: #f8f9fa; 
+        border-radius: 5px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        row-gap: 10px;
+        align-items: center;
+        /* margin: 0px 32px; */
+    }
+
+    .dari, .tujuan, .jadwal {
+        margin-left: 35px;
+        justify-content: center;
+
+    }
+    .infoRute h5 {
+        font-size: 1.5rem; /* Ukuran font untuk judul */
+        font-weight: 600;
+        color: #0C4171; /* Warna teks judul */
+        margin-bottom: 10px; /* Jarak bawah judul */
+    }
+
+    .dropdown {
+        position: relative; /* Posisi relatif untuk dropdown */
+    }
+    .dropdown-toggle{
+        background-color: transparent;
+        color: #000;
+        border-radius: 0px;
+        border:none;
+        border-bottom: 2px solid #0C4171;
+    }
+    .dropdown-toggle:hover{
+        background-color: #0C4171;
+    }
+    .dropdown-toggle:focus{
+        background-color: #0C4171;
+    }
+
+    .infoRute .btn-custom{
+        margin-left: 0px;
+        margin-right: 30px;
+        width: 100%;
+        height: 55px;
+        background-color: #0C4171;
+        color: #ffffff;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .hasil h3{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .hasil .kartu{
+        width: 100%;
+        max-width: 1200px;
+    }
+    /* Footer */
+    .footer{
+        display: grid;
+        grid-row: 2;
+        background: linear-gradient(to right, #0C4171, #1264AF); 
+        padding: 20px 64px; 
+        color: white;
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+    }
+    .footer .col1{
+        margin: 0px 32px;
+    }
+    .footer .col1 img{
+        max-width: 256px;
+        width: 100%;
+        height: auto;
+    }
+    .footer .col1 .unduh{
+        margin-top: 111px;
+    }
+    .footer .col1 .unduh h5{
+        font-size: 24px;
+    }
+    .footer .col1 .unduh .logo_download{
+        margin-top: 27px;
+    }
+
+    .footer .col2{
+        margin: 20px 32px;
+        max-width: 350px;
+    }
+    .footer .col2 h3{
+        font-size: 32;
+    }
+    .footer .col2 p{
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .footer .col3{
+        margin: 20px 32px;
+        max-width: 350px;
+    }
+    .footer .col3 img{
+        width: 47px;
+        height: auto;
+    }
+}
+/* Responsive mobile */
+@media (min-width: 320px) and (max-width: 428px){
+    nav{
+        width: 100%;
+        font-size: 14px;
+    }
+    nav img{
+        align-items: start;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin-left: 0px;
+    }
+    /* body*/
+    .header{
+        padding-top: 80px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .header h3{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    /* Informasi Rute */
+    .infoRute {
+        display: block;
+        max-width: 428px;
+        width: 100%; /* Memungkinkan elemen menggunakan lebar penuh hingga batas maksimal */
+        height: auto;
+        padding: 20px;
+        background-color: #f8f9fa; 
+        border-radius: 5px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        column-gap: 18px;
+        align-items: center;
+    }
+
+    .dari, .tujuan, .jadwal {
+        margin: 18px 24px;
+        flex: 11; 
+        gap: 78;
+
+    }
+    .infoRute h5 {
+        font-size: 16px; /* Ukuran font untuk judul */
+        font-weight: 600;
+        color: #0C4171; /* Warna teks judul */
+        margin-bottom: 10px; /* Jarak bawah judul */
+    }
+
+    .dropdown {
+        position: relative; /* Posisi relatif untuk dropdown */
+    }
+    .dropdown-toggle{
+        text-align: start;
+        background-color: transparent;
+        width: 350px;
+        color: #000;
+        border-radius: 0px;
+        border:none;
+        border-bottom: 2px solid #0C4171;
+    }
+    .dropdown-toggle:hover{
+        background-color: #0C4171;
+    }
+    .dropdown-toggle:focus{
+        background-color: #0C4171;
+    }
+
+    .infoRute .btn-custom{
+        margin-top: 18px;
+        margin-left: 2px;
+        width:100%;
+        height: 38px;
+        background-color: #0C4171;
+        color: #ffffff;
+    }
+    .hasil h3{
+        font-size: 28px;
+        font-weight: 600;
+        justify-content: center;
+    }
+    .hasil .kartu{
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .hasil .kartu .mangkat{
+        margin-bottom: 20px;
+    }
+    .hasil .kartu .balik{
+        margin-top: 20px;
+    }
+    .hasil .kartu img{
+        width: 30px;
+        height: auto;
+    }
+    .hasil .kartu  h5{
+        font-size: 16px;
+    }
+    .hasil .kartu h4{
+        font-size: 20px;
+    }
+    .hasil .kartu h2{
+        font-size: 24px;
+    }
+     /* Footer */
+     .footer{
+        display: block;
+        grid-row: 2;
+        background: linear-gradient(to right, #0C4171, #1264AF); 
+        padding: 20px 24px; 
+        color: white;
+        max-width: 768px;
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+    }
+    .footer .col1 img{
+        max-width: 256px;
+        width: 100%;
+        height: auto;
+    }
+    .footer .col1 .unduh{
+        margin-top: 111px;
+    }
+    .footer .col1 .unduh h5{
+        font-size: 24px;
+    }
+    .footer .col1 .unduh .logo_download{
+        margin-top: 27px;
+    }
+
+    .footer .col2{
+        margin: 20px 0px;
+        max-width: 350px;
+    }
+    .footer .col2 h3{
+        font-size: 32;
+    }
+    .footer .col2 p{
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .footer .col3{
+        margin-left: 0px;
+        max-width: 350px;
+    }
+    
+}
